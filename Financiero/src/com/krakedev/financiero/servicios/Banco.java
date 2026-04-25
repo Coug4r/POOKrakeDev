@@ -34,4 +34,14 @@ public class Banco {
 			return false;
 		}
 	}
+	
+	public boolean retirar(double monto, Cuenta cuenta) {
+		if(monto > 0 & monto <= cuenta.getSaldoActual()) {
+			double retiro = cuenta.getSaldoActual() - monto;
+			cuenta.setSaldoActual(retiro);
+			return true;
+		}else {
+			return false;
+		}
+	}
 }
