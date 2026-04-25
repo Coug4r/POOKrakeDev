@@ -23,7 +23,5 @@ public class Banco {
 		ultimoCodigo ++;
 		Cuenta cuenta = new Cuenta(codigoStr);
 		return cuenta;
-	}
-	
-		
+	}		
 }
