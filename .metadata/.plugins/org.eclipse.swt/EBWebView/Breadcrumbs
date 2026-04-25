@@ -76,3 +76,15 @@
 0:36:24 Microsoft.Shutdown.OnWindowClosing
 0:36:24 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
 0:36:24 Microsoft.Browser_Removed
+0:42:37 Microsoft.NewBrowser_Popup
+0:42:37 Microsoft.BrowserList.AddBrowser
+0:42:37 Browser12 Insert active Tab12 at 0
+0:42:37 Tab12 StartNav83 #auto_toplevel
+0:42:37 Tab12 StartNav84 #typed
+0:42:38 Tab12 FinishNav83
+0:42:38 Tab12 PageLoad
+0:42:38 Tab12 FinishNav84
+0:42:38 Tab12 PageLoad
+0:42:38 Tab12 StartNav85 #typed
+0:42:38 Tab12 FinishNav85
+0:42:38 Tab12 PageLoad
