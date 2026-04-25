@@ -12,4 +12,24 @@ public class Cuenta {
 		this.tipo = "A";
 		
 	}
+
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public double getSaldoActual() {
+		return SaldoActual;
+	}
+	public void setSaldoActual(double saldoActual) {
+		SaldoActual = saldoActual;
+	}
+	public String getTipo() {
+		return tipo;
+	}
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+	
 }
