@@ -44,4 +44,16 @@ public class Banco {
 			return false;
 		}
 	}
+	
+	public boolean transferir(Cuenta origen, Cuenta destino, double monto) {
+		double saldoO = origen.getSaldoActual();
+		double saldoD = destino.getSaldoActual();
+		if(saldoO >= monto) {
+			origen.setSaldoActual(saldoO-monto);
+			destino.setSaldoActual(saldoD + monto);
+			return true;
+		}else {
+			return false;
+		}
+	}
 }
