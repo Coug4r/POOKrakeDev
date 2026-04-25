@@ -4,16 +4,17 @@ public class Cuenta {
 	private String id;
 	private double SaldoActual;
 	private String tipo;
-	private Cliente cliente;
+	private Cliente cliente ;
 	
 	public Cuenta(String id) {
 		super();
 		this.id = id;
 		this.SaldoActual = 0;
 		this.tipo = "A";
+		this.cliente = new Cliente();
 		
 	}
-	
+
 	public Cliente getCliente() {
 		return cliente;
 	}

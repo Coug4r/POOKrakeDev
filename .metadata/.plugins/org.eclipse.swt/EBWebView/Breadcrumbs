@@ -66,3 +66,39 @@
 0:06:53 Microsoft.Shutdown.OnWindowClosing
 0:06:53 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
 0:06:53 Microsoft.Browser_Removed
+0:08:54 Tab2 StartNav18 #typed
+0:08:54 Tab2 FinishNav18
+0:08:54 Tab2 PageLoad
+0:09:25 Tab1 StartNav19 #typed
+0:09:25 Tab1 FinishNav19
+0:09:25 Tab1 PageLoad
+0:09:27 Tab1 StartNav20 #typed
+0:09:27 Tab1 FinishNav20
+0:09:27 Tab1 PageLoad
+0:10:17 Tab2 StartNav21 #typed
+0:10:17 Tab2 FinishNav21
+0:10:17 Tab2 PageLoad
+0:10:22 Tab2 StartNav22 #typed
+0:10:22 Tab2 FinishNav22
+0:10:22 Tab2 PageLoad
+0:10:43 Tab2 StartNav23 #typed
+0:10:43 Tab2 FinishNav23
+0:10:43 Tab2 PageLoad
+0:10:45 Tab2 StartNav24 #typed
+0:10:45 Tab2 FinishNav24
+0:10:45 Tab2 PageLoad
+0:10:46 Tab2 StartNav25 #typed
+0:10:46 Tab2 FinishNav25
+0:10:46 Tab2 PageLoad
+0:10:54 Tab2 StartNav26 #typed
+0:10:54 Tab2 FinishNav26
+0:10:54 Tab2 PageLoad
+0:11:03 Tab2 StartNav27 #typed
+0:11:04 Tab2 FinishNav27
+0:11:04 Tab2 PageLoad
+0:11:04 Tab2 StartNav28 #typed
+0:11:04 Tab2 FinishNav28
+0:11:04 Tab2 PageLoad
+0:11:04 Tab2 StartNav29 #typed
+0:11:04 Tab2 FinishNav29
+0:11:04 Tab2 PageLoad
