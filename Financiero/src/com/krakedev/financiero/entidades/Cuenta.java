@@ -32,4 +32,11 @@ public class Cuenta {
 		this.tipo = tipo;
 	}
 	
+	public void imprimir() {
+		String msgCuenta = "ID: "+ id
+				+ "\nSaldo Actual: "+ SaldoActual
+				+"\nTipo: "+ tipo;
+		System.out.println(msgCuenta);
+	}
+	
 }
