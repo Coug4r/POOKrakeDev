@@ -28,4 +28,11 @@ public class Cliente {
 	public void setApellido(String apellido) {
 		this.apellido = apellido;
 	}
+	
+	public void imprimir() {
+		String msg = "Cedula: "+ cedula
+				+"\nNombre: "+ nombre
+				+"\nApellido: "+apellido;
+		System.out.println(msg);
+	}
 }
