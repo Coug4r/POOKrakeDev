@@ -1,0 +1,27 @@
+package com.krakedev.testJUnit;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+import com.krakedev.Alien.Alien;
+
+public class TestsAtributosSinIA {
+	
+	@Test
+	
+	public void testTamanioMenor() {
+		Alien alienTest = new Alien(3, "verde");
+		assertEquals(5, alienTest.getTamanio());
+	}
+	@Test
+	public void testTamanioMayor() {
+		Alien alienTest = new Alien(35, "verde");
+		assertEquals(30, alienTest.getTamanio());
+	}
+	@Test
+	public void testTamanioCorrecto() {
+		Alien alienTest = new Alien(8, "verde");
+		assertEquals(8, alienTest.getTamanio());
+	}
+}

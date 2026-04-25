@@ -1,0 +1,12 @@
+package com.krakedev.testJUnit;
+
+import org.junit.jupiter.api.Test;
+
+public class TestsAtributosSinIA {
+	
+	@Test
+	
+	public void testAtributos() {
+		Alien alienTest = new Alien(3, "verde");
+	}
+}

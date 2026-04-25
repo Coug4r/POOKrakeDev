@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+C:\Users\nasnd\OneDrive\Desktop\PROGRAMACION\KRAKEDEV\POO\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3684681941.index
+3065904775.index
+1617133070.index

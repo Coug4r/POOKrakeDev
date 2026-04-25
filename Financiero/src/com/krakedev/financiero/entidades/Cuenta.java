@@ -1,0 +1,15 @@
+package com.krakedev.financiero.entidades;
+
+public class Cuenta {
+	private String id;
+	private double SaldoActual;
+	private String tipo;
+	
+	public Cuenta(String id) {
+		super();
+		this.id = id;
+		this.SaldoActual = 0;
+		this.tipo = "A";
+		
+	}
+}

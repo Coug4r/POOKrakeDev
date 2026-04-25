@@ -1,0 +1,20 @@
+package com.krakedev.artesanal.test;
+
+import com.krakedev.artesanal.Maquina;
+
+public class TestRecargar {
+	public static void main(String args[]) {
+		
+		boolean resultado;
+		
+		Maquina rubia = new Maquina("Pilsener","Cerveza Fria" ,0.02,8000);
+		System.out.println("******Estado inicial******");
+		rubia.imprimir();
+		System.out.println("******Recarga 1******");
+		resultado = rubia.recargarCerveza(3000);
+		System.out.println("Se recargo correctamente? " + resultado);		
+		System.out.println("******Recarga 2******");
+		resultado = rubia.recargarCerveza(6000);
+		System.out.println("Se recargo correctamente? " + resultado);
+	}
+}

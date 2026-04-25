@@ -1,0 +1,14 @@
+package com.krakedev.artesanal.test;
+
+import com.krakedev.artesanal.Maquina;
+
+public class TestLlenar {
+	public static void main(String arg[]) {
+		Maquina rubia = new Maquina("Pilsener","Cerveza Fria" ,0.02,8000);
+		rubia.imprimir();
+		rubia.llenarMaquina();
+		rubia.imprimir();
+		Maquina negra = new Maquina("Club", "Cerveza buena", 0.03);
+		negra.imprimir();
+	}
+}

@@ -1,0 +1,62 @@
+package com.krakedev.tests;
+
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+public class AlienTest {
+
+```
+@Test
+public void testColorAsignadoCorrectamente() {
+    Alien alien = new Alien(10, "Verde");
+    assertEquals("Verde", alien.getColor());
+}
+
+@Test
+public void testTamanioMinimoAjustado() {
+    Alien alien = new Alien(3, "Rojo");
+    assertEquals(5, alien.getTamanio());
+}
+
+@Test
+public void testTamanioMaximoAjustado() {
+    Alien alien = new Alien(40, "Azul");
+    assertEquals(30, alien.getTamanio());
+}
+
+@Test
+public void testPrecioCuerpo() {
+    Alien alien = new Alien(10, "Verde");
+    assertEquals(2.0, alien.getPrecioCuerpo(), 0.0001);
+}
+
+@Test
+public void testPrecioExtremidad() {
+    Alien alien = new Alien(10, "Verde");
+    assertEquals(1.0, alien.getPrecioExtremidad(), 0.0001);
+}
+
+@Test
+public void testPrecioOjo() {
+    Alien alien = new Alien(10, "Verde");
+    assertEquals(0.5, alien.getPrecioOjo(), 0.0001);
+}
+
+@Test
+public void testPreciosConTamanioMinimo() {
+    Alien alien = new Alien(1, "Gris");
+    assertEquals(1.0, alien.getPrecioCuerpo(), 0.0001);
+    assertEquals(0.5, alien.getPrecioExtremidad(), 0.0001);
+    assertEquals(0.25, alien.getPrecioOjo(), 0.0001);
+}
+
+@Test
+public void testPreciosConTamanioMaximo() {
+    Alien alien = new Alien(100, "Negro");
+    assertEquals(6.0, alien.getPrecioCuerpo(), 0.0001);
+    assertEquals(3.0, alien.getPrecioExtremidad(), 0.0001);
+    assertEquals(1.5, alien.getPrecioOjo(), 0.0001);
+}
+```
+
+}

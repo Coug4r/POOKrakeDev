@@ -1,0 +1,26 @@
+package com.krakedev.artesanal;
+
+public class Negocio {
+	private String nombre;
+	private Maquina maquina;
+	
+	public void Negocio(){}
+	
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public Maquina getMaquina() {
+		return maquina;
+	}
+	public void setMaquina(Maquina maquina) {
+		this.maquina = maquina;
+	}
+	public Negocio(String nombre, Maquina maquina) {
+		super();
+		this.nombre = nombre;
+		this.maquina = maquina;
+	}
+}

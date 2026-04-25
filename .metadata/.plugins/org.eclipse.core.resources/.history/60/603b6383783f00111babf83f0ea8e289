@@ -1,0 +1,9 @@
+package com.krakedev.testNegocio;
+
+import com.krakedev.artesanal.Negocio;
+
+public class testNegocio {
+	public static void main(String args[]) {
+		Negocio negocio1 = new Negocio();
+	}
+}

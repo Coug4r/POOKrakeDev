@@ -1,0 +1,21 @@
+package com.krakedev.artesanal.test;
+
+import com.krakedev.artesanal.Maquina;
+
+public class TestServirCerveza {
+	public static void main(String args[]) {
+		Maquina rubia = new Maquina("Pilsener","Cerveza Fria" ,0.02,8000,"rb");
+		double valor;
+		System.out.println("******Estado inicial******");
+		rubia.imprimir();
+		System.out.println("******Llenado de Maquina******");
+		rubia.llenarMaquina();
+		rubia.imprimir();
+		System.out.println("******Servir Cerveza******");
+		valor = rubia.servirCerveza(100);
+		System.out.println("El valor a pagar es "+valor);
+		System.out.println("******Estado actual******");
+		rubia.imprimir();
+		
+	}
+}
