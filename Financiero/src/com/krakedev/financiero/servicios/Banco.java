@@ -23,5 +23,15 @@ public class Banco {
 		ultimoCodigo ++;
 		Cuenta cuenta = new Cuenta(codigoStr);
 		return cuenta;
-	}		
+	}
+	
+	public boolean depositar(double monto, Cuenta cuenta) {
+		if(monto > 0) {
+			double total = cuenta.getSaldoActual() + monto; 
+			cuenta.setSaldoActual(total);
+			return true;
+		}else {
+			return false;
+		}
+	}
 }
