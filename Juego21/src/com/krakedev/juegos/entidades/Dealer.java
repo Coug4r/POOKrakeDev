@@ -1,6 +1,7 @@
 package com.krakedev.juegos.entidades;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public class Dealer {
     private ArrayList<Carta> naipe;
@@ -35,5 +36,9 @@ public class Dealer {
             carta.imprimir();
             System.out.println("-------------------");
         }
+    }
+    public int generarAleatorio(int maximo) {
+        Random rnd = new Random();
+        return rnd.nextInt(maximo + 1); // entre 0 y maximo inclusive
     }
 }
