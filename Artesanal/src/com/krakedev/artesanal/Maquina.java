@@ -7,6 +7,7 @@ public class Maquina {
 	private double capacidadMaxima;
 	private double cantidadActual;
 	private String codigo;
+	private double cantidadDesperdicio;
 	
 	public Maquina(){}
 	
@@ -17,6 +18,7 @@ public class Maquina {
 		this.precioPorMl = precioPorMl;
 		this.capacidadMaxima = capacidadMaxima;
 		this.cantidadActual = 0;
+		this.cantidadDesperdicio = 0;
 	}
 	
 	public Maquina(String nombreCerveza, String descripcion, double precioPorMl, String codigo) {
@@ -27,8 +29,25 @@ public class Maquina {
 		this.capacidadMaxima = 10000;
 		this.cantidadActual = 0;
 		this.codigo = codigo;
+		this.cantidadDesperdicio = 0;
 	}
 	
+	public double getCantidadDesperdicio() {
+		return cantidadDesperdicio;
+	}
+
+	public void setCantidadDesperdicio(double cantidadDesperdicio) {
+		this.cantidadDesperdicio = cantidadDesperdicio;
+	}
+
+	public void setCantidadActual(double cantidadActual) {
+		this.cantidadActual = cantidadActual;
+	}
+
+	public void setCodigo(String codigo) {
+		this.codigo = codigo;
+	}
+
 	public String getCodigo() {
 		return codigo;
 	}
@@ -92,5 +111,9 @@ public class Maquina {
 		}else {
 			return 0.0;
 		}
+	}
+	public void vaciarMquina() {
+		cantidadDesperdicio = this.cantidadActual;
+		this.cantidadActual=0;
 	}
 }

@@ -6,6 +6,7 @@ public class Cliente {
 	private int codigo;
 	private double totalConsumido;
 	
+	
 	public Cliente() {}
 		
 	public Cliente(String nombre, String cedula) {

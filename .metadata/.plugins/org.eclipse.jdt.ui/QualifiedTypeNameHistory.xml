@@ -2,6 +2,15 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.security.MessageDigest"/>
     <fullyQualifiedTypeName name="com.krakedev.Alien.Alien"/>
+    <fullyQualifiedTypeName name="com.krakedev.contactos.tests.testContacto"/>
+    <fullyQualifiedTypeName name="java.awt.image.DirectColorModel"/>
+    <fullyQualifiedTypeName name="com.krakedev.contacto.entidades.Directorio"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.krakedev.contacto.entidades.Contacto"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="com.krakedev.artesanal.NegocioMejorado"/>
     <fullyQualifiedTypeName name="com.krakedev.artesanal.Negocio"/>
     <fullyQualifiedTypeName name="com.krakedev.artesanal.Maquina"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
