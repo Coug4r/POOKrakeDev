@@ -30,10 +30,9 @@ public class TestJuego21 {
                 System.out.println("Jugador: " + g.getNickname() + " con puntaje " + g.getPuntajeCartas());
             }
         }
-
-        // ============================
+        
         // SEGUNDA PRUEBA: ejecutar varias veces hasta que existan ganadores
-        // ============================
+        
         System.out.println("\n=== SEGUNDA PRUEBA ===");
         boolean huboGanador = false;
 
