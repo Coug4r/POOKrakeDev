@@ -15,4 +15,7 @@
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.krakedev.artesanal.Cliente"/>
+    <fullyQualifiedTypeName name="com.krakedev.herencia.Padre"/>
+    <fullyQualifiedTypeName name="com.krakedev.herencia.test.TestHerencia"/>
+    <fullyQualifiedTypeName name="com.krakedev.herencia.Hija"/>
 </qualifiedTypeNameHistroy>
