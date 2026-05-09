@@ -9,5 +9,8 @@ public class TestAtributos {
 		rubia.setNombreCerveza("Golden Ale");
 		rubia.setDescripcion("Cerveza con aroma mas intenso");
 		rubia.imprimir();
+		System.out.println(System.getProperty("java.version"));
+        System.out.println(System.getProperty("java.runtime.version"));
+        System.out.println(System.getProperty("java.vendor"));
 	}
 }

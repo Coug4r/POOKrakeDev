@@ -5,7 +5,6 @@
     <fullyQualifiedTypeName name="com.krakedev.contactos.tests.testContacto"/>
     <fullyQualifiedTypeName name="java.awt.image.DirectColorModel"/>
     <fullyQualifiedTypeName name="com.krakedev.contacto.entidades.Directorio"/>
-    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
     <fullyQualifiedTypeName name="org.junit.Test"/>
     <fullyQualifiedTypeName name="com.krakedev.contacto.entidades.Contacto"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
@@ -18,4 +17,7 @@
     <fullyQualifiedTypeName name="com.krakedev.herencia.Padre"/>
     <fullyQualifiedTypeName name="com.krakedev.herencia.test.TestHerencia"/>
     <fullyQualifiedTypeName name="com.krakedev.herencia.Hija"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
